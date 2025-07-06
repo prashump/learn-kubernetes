@@ -18,6 +18,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: nginx-02
+  labels:
   podName: nginx-002
   project: example
   appName: example-001
@@ -33,6 +34,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: nginx-03
+  labels:
   podName: nginx-003
   project: example
   appName: example-002
@@ -48,6 +50,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: nginx-04
+  labels:
   podName: nginx-004
   project: example
   appName: example-002
