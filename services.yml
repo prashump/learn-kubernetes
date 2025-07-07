@@ -38,8 +38,8 @@ kind: Service
 metadata:
   name: nginx-np
 spec:
+  type: NodePort
   selector:
-    type: NodePort
     app: nginx
   ports:
     - name: http
