@@ -39,6 +39,7 @@ metadata:
   name: nginx-np
 spec:
   selector:
+    type: NodePort
     app: nginx
   ports:
     - name: http
